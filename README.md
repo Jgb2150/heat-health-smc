@@ -17,7 +17,7 @@ A thorough description of our methods and results is available in a forthcoming 
 
 Time-stratitifed case crossover code and coding structure adapted from:
 
-Elser, H., S. Rowland, et al. Ambient temperature and risk of urinary tract infection in California: A time-stratified case-crossover study using electronic health records. *Environment International* 165, 107303 (2022). Code available here: <https://github.com/s-rowland/DailyTemp-UTI>
+Elser, H.; Rowland, S. T.; Tartof, S. Y.; Parks, R. M.; Bruxvoort, K.; Morello-Frosch, R.; Robinson, S. C.; Pressman, A. R.; Wei, R. X.; Casey, J. A. Ambient Temperature and Risk of Urinary Tract Infection in California: A Time-Stratified Case-Crossover Study Using Electronic Health Records. *Environment International* **2022**, 165, 107303. https://doi.org/10.1016/j.envint.2022.107303. Code available here: <https://github.com/s-rowland/DailyTemp-UTI>
 
 Code for analysis of ED visits attributable to heat adapted from:
 

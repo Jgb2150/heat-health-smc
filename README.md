@@ -4,7 +4,7 @@
 
 This is the code repository for our analysis of the association of all-cause ED visits and all-cause mortality with ambient temperature in San Mateo County, CA, from 2017 to 2025. 
 
-We conducted a time-stratified case-crossover study with distributed non-linear models to estimate the percent change in ED visit and death rates associated with daily mean temperature compared to the median temperature, and for HeatRisk levels minor to major/extreme compared to little to none.
+We conducted a time-stratified case-crossover study with distributed lag non-linear models to estimate the percent change in ED visit and death rates associated with daily mean temperature compared to the median temperature, and for HeatRisk levels minor to major/extreme compared to little to none.
 
 A thorough description of our methods and results is available in a forthcoming manuscript.
 
@@ -28,7 +28,7 @@ Files are organized as follows:
   - *0_02_run_all_models.R* runs all models, including main models, stratified models, and sensitivity models. If data_source is set to 'synthetic', this will run only a subset of the models. 
   - *0_03_plot_results.R* runs all scripts to plot results and save the plots to the outputs folder. 
 - 1: These are the data cleaning files, called in *0_01_prepare_data.R*. 
-- 2: These are the model fitting files, called in *0_02_run all models.R*.
+- 2: These are the model fitting files, called in *0_02_run_all_models.R*.
 - 3: These are the plotting files, called in *0_03_plot_results.R*.
 - Functions are stored in the 'functions' folder, and have the heading 00. All functions used in scripts are defined in these files.
 
